@@ -1,0 +1,59 @@
+<html>
+    <head><title>ED IT0 Board</title></head>
+    <link ref="stylesheet" href="../stylesheets/cards.css"></link>
+    <body>
+        <h1>IT0 Checklist</h1>
+        <ol class='cards'>
+          <li>First</li>
+          <li>Second</li>
+          <li>Third</li>
+        </ol>
+        <script src='../js/cards-sortable.js'></script>
+        
+        <div id='connected'>
+          <h2>Connected lists with drop animation</h2>
+          <div class='row'>
+              <div class='span4'>
+                  <ul>
+                    <li>
+                      Define your own
+                      <strong>drop animation</strong>
+                    </li>
+                    <li>
+                      Connect lists by placing them in the same
+                      <code>group</code>
+                    </li>
+                    <li>
+                      Only sort if the cursor is
+                      <strong>above a container</strong>
+                    </li>
+                  </ul>
+              </div>
+              <div class='span4'>
+                  <ol class='simple_with_animation vertical'>
+                      <li>Item 1</li>
+                      <li>Item 2</li>
+                      <li>Item 3</li>
+                      <li>Item 4</li>
+                      <li>Item 5</li>
+                      <li>Item 6</li>
+                  </ol>
+              </div>
+              <div class='span4'>
+                  <ol class='simple_with_animation vertical'>
+                      <li class='highlight'>Item 1</li>
+                      <li class='highlight'>Item 2</li>
+                      <li class='highlight'>Item 3</li>
+                      <li class='highlight'>Item 4</li>
+                      <li class='highlight'>Item 5</li>
+                      <li class='highlight'>Item 6</li>
+                  </ol>
+              </div>
+          </div>
+        </div>
+        <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="../js/application.js"></script>
+        <script src="../js/jquery-sortable.js"></script>
+        <script src="../js/cards-sortable.js"></script>
+    </body>
+</html>
