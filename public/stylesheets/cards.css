@@ -19,3 +19,7 @@ ol.cards li.placeholder:before {
   position: absolute;
   /** Define arrowhead **/
 }
+
+ol.cards li {
+cursor: pointer;
+}
