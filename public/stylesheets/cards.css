@@ -6,10 +6,13 @@ body.dragging, body.dragging * {
   position: absolute;
   opacity: 0.5;
   z-index: 2000;
+  background: #f00;
+  border: 5px solid;
 }
 
 ol.cards li.placeholder {
   position: relative;
+  border: 1px solid;
   /** More li styles **/
 }
 ol.cards li.placeholder:before {
