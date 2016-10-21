@@ -1,25 +1,72 @@
 body.dragging, body.dragging * {
-  cursor: move !important;
+   cursor: move !important;
 }
 
 .dragged {
-  position: absolute;
-  opacity: 0.5;
-  z-index: 2000;
-  background: #f00;
-  border: 5px solid;
+   position: absolute;
+   opacity: 0.5;
+   z-index: 2000;
+   background: #f00;
+   border: 3px solid;
 }
 
 ol.cards li.placeholder {
-  position: relative;
-  border: 1px solid;
-  /** More li styles **/
+   position: relative;
+   border: 1px solid;
+   /** More li styles **/
 }
 ol.cards li.placeholder:before {
-  position: absolute;
-  /** Define arrowhead **/
+   position: absolute;
+   /** Define arrowhead **/
+}
+
+.rowx {
+   display: inline-flex;
+   text-align: center;
+}
+
+.row1 {
+   display: block;
+   text-align: center;
+   box-sizing: border-box;
+   border: 2px solid black;
+   background: white;
+}
+
+.span4 {
+   width: 400px;
+   border: 1px solid black;
+   background-color: azure;
+   box-shadow: 5px 5px;
+}
+
+.span4g {
+   /* Gap between columns */
+   width: 10px;
+   border: none;
+   box-shadow: none;
 }
 
 ol.cards li {
-cursor: pointer;
+   cursor: pointer;
+   background: white;
+   border: 1px solid blue;
+   border-radius: 10px;
+   color: blue;
+   margin: 5px;
+   width: 300 px;
+   height: auto;
+   padding: 10px;
+   box-sizing: border-box;
+   text-align: justify;
+   box-shadow: 3px 3px;
+}
+
+li.highlight {
+
+}
+
+.usTitle {
+   font-weight: bold;
+   text-decoration: underline;
 }

@@ -2,6 +2,7 @@ $(document).ready(function(){
     $("ol.cards").sortable({
       group: 'card_animation',
       pullPlaceholder: false,
+       
       // animation on drop
       onDrop: function  ($item, container, _super) {
         var $clonedItem = $('<li/>').css({height: 0});
@@ -26,6 +27,8 @@ $(document).ready(function(){
 
         _super($item, container);
       },
+       
+      // What to do when dragging items 
       onDrag: function ($item, position) {
         $item.css({
           left: position.left - adjustment.left,

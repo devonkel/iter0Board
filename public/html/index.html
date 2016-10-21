@@ -1,59 +1,83 @@
 <html>
-    <head><title>ED IT0 Board</title></head>
-    <link rel="stylesheet" href="../stylesheets/cards.css"></link>
-    <body>
-        <h1>IT0 Checklist</h1>
-        <ol class='cards'>
-          <li>First</li>
-          <li>Second</li>
-          <li>Third</li>
-        </ol>
-        
-        <div id='connected'>
-          <h2>Connected lists with drop animation</h2>
-          <div class='row'>
-              <div class='span4'>
-                  <ul>
-                    <li>
-                      Define your own
-                      <strong>drop animation</strong>
-                    </li>
-                    <li>
-                      Connect lists by placing them in the same
-                      <code>group</code>
-                    </li>
-                    <li>
-                      Only sort if the cursor is
-                      <strong>above a container</strong>
-                    </li>
-                  </ul>
-              </div>
-              <div class='span4'>
-                  <ol class='cards vertical'>
-                      <li>Item 1</li>
-                      <li>Item 2</li>
-                      <li>Item 3</li>
-                      <li>Item 4</li>
-                      <li>Item 5</li>
-                      <li>Item 6</li>
-                  </ol>
-              </div>
-              <div class='span4'>
-                  <ol class='cards vertical'>
-                      <li class='highlight'>Item 1</li>
-                      <li class='highlight'>Item 2</li>
-                      <li class='highlight'>Item 3</li>
-                      <li class='highlight'>Item 4</li>
-                      <li class='highlight'>Item 5</li>
-                      <li class='highlight'>Item 6</li>
-                  </ol>
-              </div>
-          </div>
-        </div>
+   <head><title>ED IT0 Board</title>
+      <link rel="stylesheet" type="text/css" href="../stylesheets/cards.css">
+   </head>
+   <body>
+      <h1>IT0 Checklist</h1>
+      <div id='connected'>
+        <div class='rowx'>
+           <div class='span4'><strong>Backlog</strong>
+               <ol class='cards'>
+                   <li>
+                      <span class="usTitle">Story 1-1 Title</span>
+                      <br>
+                      <span class="usDetail">This part describes the detail tasks items needed.  It should list all of the tacks needed, person responsible, and expected end date.</span>
+                  </li>
+                  <li>Item 2</li>
+                  <li>Item 3</li>
+                  <li>Item 4</li>
+                  <li>Item 5</li>
+                  <li>Item 6</li>
+                  <li>Item 7</li>
+                  <li>Item 8</li>
+                  <li>Item 9</li>
+                  <li>Item 10</li>
+                  <li>Item 11</li>
+                  <li>Item 12</li>                  
+               </ol>
+               <input type="button" value ="Add Item" name="btnAddItem1">
+               <p></p>
+           </div>
+           <div class='span4g'></div>
+           <div class='span4'><strong>WIP</strong>
+               <ol class='cards'>
+                  <li class='highlight'><span class="usTitle">Story 1-2 Title</span>
+                      <br>
+                      <span class="usDetail">This part describes the detail tasks items needed.  It should list all of the tacks needed, person responsible, and expected end date.</span></li>
+                  <li class='highlight'>Item 2</li>
+                  <li class='highlight'>Item 3</li>
+                  <li class='highlight'>Item 4</li>
+                  <li class='highlight'>Item 5</li>
+                  <li class='highlight'>Item 6</li>
+                  <li class='highlight'>Item 7</li>
+                  <li class='highlight'>Item 8</li>
+                  <li class='highlight'>Item 9</li>
+                  <li class='highlight'>Item 10</li>
+                  <li class='highlight'>Item 11</li>
+                  <li class='highlight'>Item 12</li>
+               </ol>
+               <input type="button" value ="Add Item" name="btnAddItem2">
+              <p></p>
+            </div>
+            <div class='span4g'></div>
+            <div class='span4'>
+               <div class='row1'>
+                  <strong>Done</strong>
+               </div>
+               <ol class='cards'>
+                  <li class='highlight'><span class="usTitle">Story 1-2 Title</span>
+                      <br>
+                      <span class="usDetail">This part describes the detail tasks items needed.  It should list all of the tacks needed, person responsible, and expected end date.</span></li>
+                  <li class='highlight'>Item 2</li>
+                  <li class='highlight'>Item 3</li>
+                  <li class='highlight'>Item 4</li>
+                  <li class='highlight'>Item 5</li>
+                  <li class='highlight'>Item 6</li>
+                  <li class='highlight'>Item 7</li>
+                  <li class='highlight'>Item 8</li>
+                  <li class='highlight'>Item 9</li>
+                  <li class='highlight'>Item 10</li>
+                  <li class='highlight'>Item 11</li>
+                  <li class='highlight'>Item 12</li>
+               </ol>
+               <input type="button" value ="Add Item" name="btnAddItem3">
+              <p></p>
+           </div>
+       </div>
+      </div>
     </body>
     <footer>
         <script src="../js/jquery-3.1.1.min.js"></script>
-<!--        <script src="../js/application.js"></script>-->
         <script src="../js/jquery-sortable.js"></script>
         <script src="../js/cards-sortable.js"></script>
     </footer>
